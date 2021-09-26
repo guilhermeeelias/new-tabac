@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Tabacaria da casa</title>
+		<link rel="stylesheet" href="css/style.css">
+		<!-- <link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/grid.css"> -->
+    
+    
+    
+	</head>
+	<body>
+		
+    <body>
+			<header id="header">
+				<img src="img/logo_tabacariadacasa.svg" alt="Logo" id="logo" href="">
+				<nav id="nav">
+					<!-- Aria label abrir menu = Quando leitor de tela passar pelo código, saberá que existe um menu, aria expanded = mostra se ele está expandido ou nao. Aria controls = passa o id de qual objeto ele está controlando. Aria haspopup, mostra que o elemento é um popup  -->
+					<button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+						<span id="hamburger"></span>
+					</button>
+					<ul id="menu" role="menu"> <!-- role: menu, serve para mostrar que essa área tem papel de menu -->
+						<li><a href="/">Sobre</a></li>
+						<li><a href="/">Produtos</a></li>
+						<li><a href="/">Portfólio</a></li>
+						<li><a href="/">Contato</a></li>
+					</ul>
+				</nav>
+			</header>
+			<script src="script.js"></script>
+		</body>
+</html>
